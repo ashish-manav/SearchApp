@@ -1,0 +1,4 @@
+<aura:event type="COMPONENT" description="Event template">
+    <aura:attribute name="modalAction" type="String" /> 
+    <aura:attribute name="fieldsToDisplay" type="List" />
+</aura:event>

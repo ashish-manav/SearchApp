@@ -1,0 +1,122 @@
+<aura:component access="global" controller="CustomSearchController">
+    <!-- obsolete -->
+    <aura:attribute name="fields" type="List" />
+
+    <!-- obsolete -->
+
+    <aura:attribute name="availableFields" type="List" />
+
+    <aura:attribute name="showSpinner" type="Boolean" default="false" />
+    <aura:attribute name="selectedObject" type="String" />
+    <aura:attribute name="selectedField" type="String" />
+    <aura:attribute name="selectedOperator" type="String" default="=" />
+    <aura:attribute name="selectedValue" type="String" default="" />
+    <aura:attribute name="picklistValue" type="List" />
+
+    <aura:attribute name="tempSelectedItem" type="String" />
+    <aura:attribute name="selectedType" type="String" default="text" />
+    <aura:attribute name="tempSelectedType" type="String" default="string" />
+    <aura:attribute name="showCustomInput" type="Boolean" default="false" />
+    <aura:attribute name="searchJson" type="Object" />
+    <aura:attribute name="rowIndex" type="String" />
+
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:handler name="change" value="{!v.availableFields}" action="{!c.handleFieldsChange}" />
+
+    <aura:handler event="aura:waiting" action="{!c.waiting}" />
+    <aura:handler event="aura:doneWaiting" action="{!c.doneWaiting}" />
+
+
+    <!-- Register 2 Lightning Event for handle add or Delete rows on Parent Component  -->
+    <aura:registerEvent name="DeleteRowEvt" type="c:DeleteFieldEvt" />
+    <aura:registerEvent name="AddRowEvt" type="c:AddNewFieldEvt" />
+
+    <aura:if isTrue="{!v.showSpinner}">
+        <lightning:spinner alternativeText="Loading" variant="brand" size="large" aura:id="spinner" />
+    </aura:if>
+    <lightning:layout>
+        <!--
+            <lightning:layoutItem size="1" padding="around-small">
+            <div class="slds-button slds-button_brand">{!v.rowIndex+1}</div>
+        </lightning:layoutItem>
+    -->
+        <lightning:layoutItem size="4" padding="around-small">
+            <lightning:select name="mySelect" label="" aura:id="mySelect" onchange="{!c.fieldChange}" value="{!v.tempSelectedItem}">
+                <option value="">--None--</option>
+                <aura:iteration items="{!v.availableFields}" var="item">
+                    <option text="{!item.label}" value="{!item.value}" selected="{!item.selected}" />
+                </aura:iteration>
+            </lightning:select>
+        </lightning:layoutItem>
+        <lightning:layoutItem size="3" padding="around-small">
+            <lightning:select name="operatorSelect" label="" aura:id="operatorSelect" value="{!v.searchJson.Operator}">
+                <option value="">--None--</option>
+                <option value="=" text="Equals"></option>
+                <option value="!=" text="Does not equals"></option>
+                <option value="contains" text="Contains"></option>
+            </lightning:select>
+        </lightning:layoutItem>
+
+        <aura:if isTrue="{!or(v.tempSelectedType=='string',v.tempSelectedType=='textarea')}">
+            <lightning:layoutItem size="3" padding="around-small">
+                <ui:inputText value="{!v.searchJson.Value}" label="" class="slds-lookup__search-input slds-input" placeholder="" />
+            </lightning:layoutItem>
+            <aura:set attribute="else">
+                <aura:if isTrue="{!v.tempSelectedType=='date'}">
+                    <lightning:layoutItem size="3" padding="around-small">
+                        <lightning:input type="date" value="{!v.searchJson.Value}" variant="label-hidden" name="{!v.tempSelectedType}" />
+                    </lightning:layoutItem>
+                </aura:if>
+                <aura:if isTrue="{!v.tempSelectedType=='email'}">
+                    <lightning:layoutItem size="3" padding="around-small">
+                        <lightning:input type="email" value="{!v.searchJson.Value}" variant="label-hidden" name="{!v.tempSelectedType}" />
+                    </lightning:layoutItem>
+                </aura:if>
+                <aura:if isTrue="{!v.tempSelectedType=='number'}">
+                    <lightning:layoutItem size="3" padding="around-small">
+                        <lightning:input type="number" value="{!v.searchJson.Value}" variant="label-hidden" name="{!v.tempSelectedType}" />
+                    </lightning:layoutItem>
+                </aura:if>
+                <aura:if isTrue="{!v.tempSelectedType=='tel'}">
+                    <lightning:layoutItem size="3" padding="around-small">
+                        <lightning:input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" value="{!v.searchJson.Value}" variant="label-hidden" name="{!v.tempSelectedType}"
+                        />
+                    </lightning:layoutItem>
+                </aura:if>
+                <aura:if isTrue="{!v.tempSelectedType=='url'}">
+                    <lightning:layoutItem size="3" padding="around-small">
+                        <lightning:input type="url" value="{!v.searchJson.Value}" variant="label-hidden" name="{!v.tempSelectedType}" />
+                    </lightning:layoutItem>
+                </aura:if>
+                <aura:if isTrue="{!v.tempSelectedType=='currency'}">
+                    <lightning:layoutItem size="3" padding="around-small">
+                        <lightning:input type="number" formatter="currency" step="0.0001" value="{!v.searchJson.Value}" variant="label-hidden" name="{!v.tempSelectedType}"
+                        />
+                    </lightning:layoutItem>
+                </aura:if>
+                <aura:if isTrue="{!v.tempSelectedType=='picklist'}">
+                    <lightning:layoutItem size="3" padding="around-small">
+                        <lightning:select name="filterPicklist" label="" aura:id="filterPicklist" value="{!v.searchJson.Value}">
+                            <option value="">--None--</option>
+                            <aura:iteration items="{!v.picklistValue}" var="item">
+                                <option text="{!item}" value="{!item}" />
+                            </aura:iteration>
+                        </lightning:select>
+                    </lightning:layoutItem>
+                </aura:if>
+            </aura:set>
+        </aura:if>
+
+        <lightning:layoutItem size="2" padding="around-small">
+            <lightning:buttonIcon iconName="utility:check" variant="border" onclick="{!c.SaveFilter}" alternativeText="Save " />
+            <lightning:buttonIcon iconName="utility:close" variant="border" onclick="{!c.removeRow}" alternativeText="Close"/>
+            <!--<aura:if isTrue="{!v.rowIndex == 0}">
+                <lightning:buttonIcon iconName="utility:add" variant="border" onclick="{!c.AddNewRow}" alternativeText="Add New Filter."/>
+                <aura:set attribute="else">
+                    <lightning:buttonIcon iconName="utility:delete" variant="border" onclick="{!c.removeRow}" alternativeText="Remove Filter."/>                  
+                </aura:set>
+            </aura:if> -->
+        </lightning:layoutItem>
+    </lightning:layout>
+
+</aura:component>

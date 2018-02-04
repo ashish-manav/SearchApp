@@ -1,0 +1,37 @@
+<aura:component >
+	<aura:attribute name="listOptions" type="List" default="[]"/>
+    <aura:attribute name="defaultOptions" type="List"/>
+    <aura:attribute name="requiredOptions" type="List" default="[]"/>
+    <aura:handler name="init" value="{! this }" action="{! c.initialize }"/>	
+    <aura:registerEvent name="modalActionCompEvent" type="c:ToggleModal"/>
+
+ <div class="demo-only" style="height: 640px;">
+  <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+    <div class="slds-modal__container">
+      <header class="slds-modal__header">
+        <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" onclick="{!c.closeModal}" title="Close">
+          <lightning:icon iconName="utility:close" class="padding-left-10 pointer" variant="inverse" size="x-small" alternativeText="excel"/>
+          <span class="slds-assistive-text">Close</span>
+        </button>
+        <h2 id="modal-heading-01" class="slds-text-heading_medium slds-hyphenate">Modal Header</h2>
+      </header>
+      <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+        <lightning:dualListbox aura:id="selectOptions" name="Select Options"  label="Select Options" 
+                           sourceLabel="Available Options" 
+                           selectedLabel="Selected Options" 
+                           options="{! v.listOptions }"
+                           value="{! v.defaultOptions }"
+                           requiredOptions="{! v.requiredOptions }"
+                           onchange="{! c.handleChange }"/>
+
+      </div>
+      <footer class="slds-modal__footer">
+        <button class="slds-button slds-button_neutral" onclick="{!c.closeModal}" >Cancel</button>
+        <button class="slds-button slds-button_brand" onclick="{!c.submit}">Save</button>
+      </footer>
+    </div>
+  </section>
+  <div class="slds-backdrop slds-backdrop_open"></div>
+</div>
+ 
+</aura:component>

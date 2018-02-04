@@ -1,0 +1,135 @@
+/*
+Name           : PLMLayout.css
+Author         : Parth Lukhi
+Description    : Stlyle sheet used for PLM App 
+JIRA ID        : =
+*/
+
+.THIS .common {
+    background-color: rgb(22, 50, 92);
+    color:white;
+    width: 6%;
+    min-width:6%;
+    min-height: 100vh;
+}
+.THIS.mybody {
+    overflow: auto;
+    min-height: 100vh;
+    background: #f5f6fa;
+}
+.THIS .center-algn {
+    text-align: center;
+}
+.THIS .img-sidebar {
+    padding: 10px;
+}
+.THIS .slds-tabs--default__link {
+    text-decoration: none !important;
+    color: #fff;
+}
+.THIS .slds-tabs--scoped__link {
+    text-decoration: none !important;
+    color: #000000;
+}
+.THIS .slds-tabs_scoped__nav {
+    border: 0px solid rgb(216, 221, 230);
+}
+.THIS .slds-tabs--default__nav {
+    background-color: #00a3e2;
+    color: #fff;
+}
+.THIS .slds-tabs_default__item {
+    color: #fff;
+    text-align: center;
+    height: 5px;
+}
+.THIS .slds-tabs--default__item {
+    color: #fff;
+}
+.THIS .padding-all {
+    padding: 5px;
+}
+.THIS .activeIcon {
+    /*background: #0773a8;*/
+    background : white;
+    cursor: pointer;
+}
+.THIS .inActiveIcon {
+    background: white;
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+}
+.THIS .slds-tabs_default__item::after {
+    height: 4px;
+}
+.THIS .slds-tabs--default__item::after {
+    top: 20px;
+    margin-top: 18px;
+    height: 4px;
+}
+.THIS .padding-side {
+    padding: 20px;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    height: 120%;
+    vertical-align: middle;
+    cursor: pointer;
+    height: 61px;
+}
+.THIS .slds-text-title_caps,
+.THIS .slds-text-title--caps {
+    text-decoration-color: black;
+    text-transform: none;
+}
+.THIS .full-size {
+    height: 100%;
+    width: 100%;
+}
+.THIS .slds-tabs_default__item.slds-active:after,
+.THIS .slds-tabs_default__item.slds-is-active:after,
+.THIS .slds-tabs--default__item.slds-active:after,
+.THIS .slds-tabs--default__item.slds-is-active:after {
+    background-color: #00a6f8;
+}
+.THIS .slds-tabs_default__item:hover:after,
+.THIS .slds-tabs--default__item:hover:after {
+    background-color: #00a6f8;
+}
+.THIS .sideImgDiv {
+    background-color: red;
+}
+.THIS .sideTd {
+    vertical-align: middle;
+    cursor: pointer;
+    text-align: center;
+    height: 72px;
+    width: 72px;
+}
+.THIS .margin-top-5 {
+    margin-top: 5px;
+}
+.THIS .margin-top-10 {
+    margin-top: 10px;
+}
+.THIS .margin-top-15 {
+    margin-top: 15px;
+}
+.THIS .margin-top-20 {
+    margin-top: 20px;
+}
+.THIS .dropdown-1 {
+    border: 0px;
+    border-bottom: 0.5px #b0b5b8;
+}
+.THIS .a {
+    text-decoration: none !important;
+}
+.THIS .slds-active {
+    background-color: #0773a8;
+    color: #ffffff;
+}
+.THIS .margin-right-10 {
+    margin-right: 10px;
+}

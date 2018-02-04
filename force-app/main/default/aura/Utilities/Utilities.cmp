@@ -1,0 +1,53 @@
+<!--Name           : CaseListItem.cmp
+   Author         :Atul Hinge
+   Description    : This component contains implementation for all events and methods.                          
+   JIRA ID        : PUX-116,PUX-130
+   -->
+<aura:component >
+    <!--Internal Attributes-->
+    
+    <aura:attribute name="showMessage" type="boolean" default="false" />
+    <aura:attribute name="showError" type="boolean" default="false" />
+    
+    <aura:attribute name="message" type="String" default="" />
+    <aura:attribute name="title" type="String" default="" />
+    
+    <!--Internal Attributes-->
+    <!-- START : Event Handlers -->
+    <aura:handler event="c:ShowToast" action="{!c.showMessage}"/>
+    
+    <!-- End : Event Handlers -->
+   <aura:if isTrue="{!v.showMessage}">
+        <div class="demo-only" style="height: 4rem; position: absolute; top: 25%; left: 34%;">
+            <div class="slds-notify_container slds-is-relative">
+                <div class="slds-notify slds-notify_toast slds-theme_success" role="alert">
+                    <span class="slds-assistive-text">{!v.title}</span>
+                    <span class="slds-icon_container slds-icon-utility-success slds-m-right_small slds-no-flex slds-align-top" title="Description of icon when needed">
+                        <lightning:icon iconName="utility:success" size="x-small" />
+                    </span>
+                    <div class="slds-notify__content">
+                        <h2 class="slds-text-heading_small">{!v.message}</h2>
+                    </div>
+                    <button class="slds-button slds-button_icon slds-notify__close slds-button_icon-inverse" title="Close" onclick="{!c.closeToast}">
+                        <lightning:icon iconName="utility:close" size="x-small" />
+                    </button>
+                </div>
+            </div>
+        </div>
+    </aura:if> 
+   
+ <aura:if isTrue="{!v.showError}">
+        <div class="slds-notify slds-notify_alert slds-theme_alert-texture slds-theme_error" role="alert">
+            <span class="slds-assistive-text">error</span>
+            <span class="slds-icon_container slds-icon-utility-ban slds-m-right_x-small" title="Description of icon when needed">
+                <lightning:icon iconName="utility:success" size="x-small" />
+            </span>
+            <h2>Your browser is currently not supported. Your Salesforce may be degraded. <a href="javascript:void(0);">More Information</a></h2>
+            <button class="slds-button slds-button_icon slds-notify__close slds-button_icon-inverse" title="Close" onclick="{!c.closeError}">
+                 <lightning:icon iconName="utility:close" size="x-small" />
+            </button>
+        </div>
+    </aura:if>
+   
+    
+</aura:component>

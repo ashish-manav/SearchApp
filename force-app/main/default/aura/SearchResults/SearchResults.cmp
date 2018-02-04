@@ -1,0 +1,19 @@
+<aura:component >
+    <aura:attribute name="mydata" type="Object"/>
+    <aura:attribute name="mycolumns" type="Object"/>
+    <aura:attribute name="sortedBy" type="string" default="Name" />
+    <aura:attribute name="sortedDirection" type="string" default="asc" />
+    <!--<aura:handler name="init" value="{! this }" action="{! c.init }"/> -->
+    <!--<lightning:datatable data="{! v.mydata }" 
+                         sortedBy="{!v.sortedBy}" 
+                         columns="{! v.mycolumns }" 
+                         keyField="Id"
+                         sortedDirection="{!v.sortedDirection}" 
+                         hideCheckboxColumn="true"
+                         onsort="{!c.updateColumnSorting}"/> -->
+    
+    <lightning:datatable data="{!v.mydata}" columns="{!v.mycolumns}" class="slds-table_bordered" 
+                             onsort="{!c.updateColumnSorting}" sortedBy="{!v.sortedBy}" 
+                         	 sortedDirection="{!v.sortedDirection}" 
+                             onrowselection="{!c.getSelectedName}" keyField="Id" />
+</aura:component>

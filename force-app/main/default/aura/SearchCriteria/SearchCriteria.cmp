@@ -1,0 +1,216 @@
+<aura:component access="global" controller="CustomSearchController">
+    <aura:attribute name="fields" type="List" />
+    <aura:attribute name="searchItems" type="String[]"/>
+    <!--Aura Attribute for store Contact Object List as Array--> 
+    <aura:attribute name="showSpinner" type="Boolean" default="false"/>
+    
+    <aura:attribute name="selectedObject" type="String" default="Account"/>
+    <aura:attribute name="filterList" type="Object[]" default="[]"/> 
+    <aura:attribute name="searchItem" type="Object" />
+    
+    <aura:attribute name="limit" type="String" default="10" />
+    <aura:attribute name="customLimit" type="Integer" default="50" />
+    
+    <aura:attribute name="orderby" type="String" default="" />
+    
+    <aura:attribute name="viewableFieldOptions" type="List" default="[]" />
+    <aura:attribute name="fieldsToDisplay" type="List" default="['Name']" />
+    <aura:attribute name="orderByOptions" type="List" default="[]"/>
+    <aura:attribute name="statusOptions" type="List" default="[]"/>
+    
+    
+    <aura:attribute name="showSearchResult" type="Boolean" default="false"/>
+    <aura:attribute name="recordCount" type="String"/>
+    
+    <aura:attribute name="mydata" type="Object"/>
+    <aura:attribute name="mycolumns" type="Object"/>
+    <aura:attribute name="options" type="List" default="[{'label': 'All of the conditions are met (AND)', 'value': 'AND'},
+                                                        {'label': 'Any of the conditions are met (OR)', 'value': 'OR'},
+                                                        {'label': 'Customize the logic', 'value': 'Custom'}]"/>
+    
+    <!--<aura:attribute name="value" type="String" default="AND"/>-->
+    
+    <aura:attribute name="conditionValue" type="String" default="AND" />
+    <aura:attribute name="searchCriteriaLayoutSize" type="Integer" default="7" />
+    <aura:attribute name="showRecentRecords" type="Boolean" default="True" />
+    
+    <aura:attribute name="showModal" type="Boolean" default="false" />
+    <aura:attribute name="addCriteria" type="Boolean" default="false" /> 
+    
+    <!-- Event Handlers Starts -->
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:handler event="aura:waiting" action="{!c.waiting}" />
+    <aura:handler event="aura:doneWaiting" action="{!c.doneWaiting}" />
+    
+    <!--Event handler for Add and Delete Row Event which is fire from Child Component-->    
+    <aura:handler name="DeleteRowEvt" event="c:DeleteFieldEvt" action="{!c.removeDeletedRow}"/>
+    <aura:handler name="AddRowEvt" event="c:AddNewFieldEvt" action="{!c.addNewRow}"/>
+    <aura:handler name="modalActionCompEvent" event="c:ToggleModal" action="{!c.handleSaveCloseModal}" />
+    <!-- Event Handlers Ends -->
+    
+    <aura:if isTrue="{!v.showSpinner}">
+        <lightning:spinner alternativeText="Loading" variant="brand" size="large" aura:id="spinner"/>
+    </aura:if>
+    <lightning:overlayLibrary aura:id="overlayLib"/>
+    <!-- Search and filter part -->
+    
+    <div>
+        <lightning:layout >
+            <!-- Object Selection Starts -->
+            <lightning:layoutItem padding="around-small">
+                <lightning:select name="select1" label="Select an object" value="{!v.selectedObject}" onchange="{!c.getFilterFields}">
+                    <option value="Account" text="Account" selected="true"></option>
+                    <option value="Contact" text="Contact"></option>
+                    <option value="Lead" text="Lead"></option>
+                </lightning:select>
+            </lightning:layoutItem>
+            <!-- Object Selection Ends -->
+            
+            <!-- Fields Selection Starts-->
+            <lightning:layoutItem padding="around-small" class="padding-top-31">
+                <lightning:button name="modal" label="Fields to Display" onclick="{!c.handleShowModal}"/>
+            </lightning:layoutItem>
+            <!--Fields Selection Ends-->
+            
+            <!-- Add criteria button -->
+            <lightning:layoutItem padding="around-small" class="padding-top-31">
+                <lightning:button name="addCriteria" label="Add Criteria" onclick="{!c.AddCriteria}"></lightning:button>
+            </lightning:layoutItem>
+        </lightning:layout>
+        <hr class="no-margin"/>
+        <aura:if isTrue="{!not(v.showSearchResult)}">
+            <lightning:layout >
+                <lightning:layoutItem size="{!v.searchCriteriaLayoutSize}" class="grey_border">
+                    <div class="header">Search Criteria
+                        <span style="float:right;">
+                            <span onclick="{!c.maximizeCriteria}"><lightning:icon iconName="utility:expand" class="padding-left-10 pointer" variant="inverse" size="x-small" alternativeText="expand"/></span>
+                        </span>
+                    </div>
+                    <div class="firstQuadrent">
+                        <aura:if isTrue="{!v.addCriteria}">
+                            <c:NewSearchCriteriaItem selectedObject="{!v.selectedObject}" availableFields="{!v.fields}" searchJson="{!v.searchItem}" rowIndex="{!index}"></c:NewSearchCriteriaItem>
+                        </aura:if>
+                            <aura:if isTrue="{!v.filterList.length == 0}">
+                                <lightning:layoutItem size="12" padding="around-small">
+                                    <lightning:pill label="No filters added" >
+                                        <aura:set attribute="media">
+                                            <lightning:icon iconName="standard:account"  alternativeText="Account"/>
+                                        </aura:set>
+                                    </lightning:pill>
+                                </lightning:layoutItem>
+                                <aura:set attribute="else">
+                                    <aura:Iteration items="{!v.filterList}" var="filterItem" indexVar="index">
+                                        <lightning:layoutItem size="12" padding="around-small">
+                                            <div class="slds-button slds-button_brand margin-bottom-1">{!index+1}</div>
+                                            <lightning:pill label="{!filterItem.FieldName + '--' + filterItem.Operator +  '--' + filterItem.Value}" >
+                                            </lightning:pill>
+                                        </lightning:layoutItem>
+                                    </aura:Iteration>
+                                </aura:set>
+                            </aura:if>
+                        
+                        
+                        
+                        <!--
+                        <aura:Iteration items="{!v.filterList}" var="searchItem" indexVar="index">
+                            <c:SearchCriteriaItem selectedObject="{!v.selectedObject}" availableFields="{!v.fields}" searchJson="{!searchItem}" rowIndex="{!index}"></c:SearchCriteriaItem>
+                        </aura:Iteration>
+                    -->
+                    </div>
+                    <hr class="no-margin"/>
+                    <!-- Limit and Order By Starts -->
+                    <lightning:layout >
+                        <lightning:layoutItem size="3" padding="around-small">
+                            <lightning:combobox aura:id="selectLimit" name="status" label="Limit Records"
+                                                placeholder="Select Limit"
+                                                value="10"
+                                                onchange="{!c.handleLimitChange}"
+                                                options="{!v.statusOptions}"/>
+                        </lightning:layoutItem>
+                        <aura:if isTrue="{!v.limit =='Custom'}">
+                            <lightning:layoutItem size="2" padding="around-small">
+                                <lightning:input name="limit" type="number" label="Limit" value="{!v.customLimit}"/>
+                            </lightning:layoutItem>
+                        </aura:if>
+                        <lightning:layoutItem size="3" padding="around-small">
+                            <lightning:combobox aura:id="selectLimit" name="order" label="View"
+                                                placeholder="Select Order By"
+                                                value="ASC"
+                                                onchange="{!c.handleOrderByChange}"
+                                                options="{!v.orderByOptions}"/>
+                        </lightning:layoutItem>
+                    </lightning:layout>
+                    <!-- Limit and Order By Ends -->
+                    <hr class="no-margin"/>
+                    <!-- Condition Block Starts -->
+                    <lightning:card >
+                        <aura:set attribute="title">
+                            Conditions<span style="color:red;">*</span>
+                        </aura:set>
+                        <aura:set attribute="footer">
+                            <!-- <lightning:badge label="footer"/>-->
+                        </aura:set>
+                        <aura:set attribute="actions">
+                        </aura:set>
+                        <p class="slds-p-horizontal_small">
+                            <lightning:radioGroup aura:id="mygroup"
+                                                  name="radioButtonGroup"
+                                                  label="Conditions" 
+                                                  options="{! v.options }"
+                                                  value="{!v.conditionValue}"
+                                                  onchange="{! c.handleChange }"
+                                                  required="false" />
+                        </p>
+                        
+                        <aura:if isTrue="{!v.conditionValue =='Custom'}">
+                            <lightning:layout >
+                                <lightning:layoutItem size="7" padding="around-small">
+                                    <lightning:input label="Logic" required="true" name="Logic" />
+                                </lightning:layoutItem>
+                                <lightning:layoutItem size="1" class="padding-35">
+                                    <lightning:helptext content="Customize your logic for the filter conditions that you specified. For example, if you enter 1 AND (2 OR 3), then criteria evaluates to true when the first condition is true and either the second or third condition is true." />
+                                </lightning:layoutItem>
+                            </lightning:layout>
+                        </aura:if>
+                    </lightning:card>
+                    <!-- Condition Block Ends -->
+                </lightning:layoutItem>
+                <!-- Recent Records Block Starts -->
+                <aura:if isTrue="{!v.showRecentRecords}">
+                    <lightning:layoutItem size="5" class="grey_border">
+                        <div class="header">Recent {!v.selectedObject} Records : {!v.recordCount}
+                            <span style="float:right;">
+                                <lightning:icon iconName="utility:download" class="padding-left-10 pointer" variant="inverse" size="x-small" alternativeText="excel"/>
+                                <span onclick="{!c.maximizeResults}"><lightning:icon iconName="utility:expand" class="padding-left-10 pointer" variant="inverse" size="x-small" alternativeText="expand"/></span>
+                            </span>
+                        </div>
+                        <div class="height-450">
+                            <c:SearchResults mycolumns="{!v.mycolumns}" mydata="{!v.mydata}"></c:SearchResults>
+                        </div>
+                    </lightning:layoutItem>
+                </aura:if>
+                <!-- Recent Records Block Ends -->
+            </lightning:layout> 
+            <aura:set attribute="else">
+                <div class="header">Recent {!v.selectedObject} Records : {!v.recordCount}
+                    <span style="float:right;">
+                        <lightning:icon iconName="utility:download" class="padding-left-10 pointer" variant="inverse" size="x-small" alternativeText="excel"/>
+                        <span onclick="{!c.doBack}"><lightning:icon iconName="utility:minimize_window" class="padding-left-10 pointer" variant="inverse" size="x-small" alternativeText="expand"/></span>
+                    </span>
+                </div>
+                <div class="height-450">
+                    <c:SearchResults mycolumns="{!v.mycolumns}" mydata="{!v.mydata}"></c:SearchResults>
+                </div>
+            </aura:set>
+        </aura:if>
+        <hr style="margin-top: 10px;margin-bottom: 10px;"/>
+    </div>
+    <!-- Search & Filter part ends -->
+    <lightning:button label="Search" onclick="{!c.doSearch}"/>
+    <lightning:button label="Show Toast" onclick="{!c.showToast}" />
+    <lightning:button label="Save Filter" onclick="{!c.doSaveFilter}"/>
+    
+    <aura:if isTrue="{!v.showModal}">
+        <c:Modal listOptions="{!v.viewableFieldOptions}" defaultOptions="{!v.fieldsToDisplay}"></c:Modal>
+    </aura:if>
+</aura:component>

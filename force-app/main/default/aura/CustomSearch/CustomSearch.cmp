@@ -1,0 +1,76 @@
+<aura:component implements="forceCommunity:searchInterface,flexipage:availableForAllPageTypes" access="global" controller="CustomSearchController">
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
+    <aura:attribute name="searchText" type="String" default=""/>    
+    <aura:attribute name="showLayout" type="string" default="CaseTracker" />
+    
+    <div class="slds-grid mybody">
+        <div style="position:absolute; z-index:99; top:1em;left:27em;">
+        <c:Utilities ></c:Utilities>
+            </div>
+        <div class="common" >
+            <!-- START : Left Hand Side Panel-->
+            <div aura:id="parentSideDiv">
+                <lightning:layout >
+                    <lightning:layoutitem size="12" aura:id="lDashboard">
+                        <div>
+                            <table border="0" id="Dashboard" name="Dashboard" onclick="{!c.setShowMe}">
+                                <tr>
+                                    <td class="sideTd">
+    									<lightning:icon iconName="standard:dashboard" size="medium" alternativeText="Dashboard"/>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div> 
+                    </lightning:layoutitem>
+                </lightning:layout>
+                <lightning:layout >
+                    <lightning:layoutitem size="12" aura:id="lCaseTracker" class="activeIcon">
+                        <table border="0" id="CaseTracker" name="CaseTracker" onclick="{!c.setShowMe}">
+                            <tr>
+                                <td class="sideTd">
+                                    <lightning:icon iconName="standard:process" size="medium" alternativeText="Search"/>
+                                </td>
+                            </tr>
+                        </table>
+                    </lightning:layoutitem>
+                </lightning:layout>
+            </div>
+        </div>
+        
+        <!-- END : Left Hand Side Panel-->
+        <!-- START : Right Hand Side Header and Components-->
+        <div class="slds-col">
+            <!--<c:Header ></c:Header> -->
+            <aura:if isTrue="{!equals(v.showLayout,'Dashboard')}">
+                <lightning:card >
+                    <aura:set attribute="title">
+                      Dashboard
+                    </aura:set>
+                    <aura:set attribute="actions">
+                       <!-- <lightning:button label="New"/> -->
+                    </aura:set>
+                    <p class="slds-p-horizontal_small">
+
+                    </p>
+                </lightning:card>
+            </aura:if>
+            <aura:if isTrue="{!equals(v.showLayout,'CaseTracker')}">
+                <lightning:card >
+                    <aura:set attribute="title">
+                      <!--  Hello!-->
+                    </aura:set>
+                    <aura:set attribute="actions">
+                       <!-- <lightning:button label="New"/> -->
+                    </aura:set>
+                    <p class="slds-p-horizontal_small">
+                       <c:SearchCriteria ></c:SearchCriteria>
+                    </p>
+                </lightning:card>
+            </aura:if>
+        </div>
+        <!-- END : Right Hand Side Header and Components -->
+    </div>
+    
+    
+    
+</aura:component>

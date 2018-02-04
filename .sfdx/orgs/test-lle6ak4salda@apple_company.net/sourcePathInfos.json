@@ -1,0 +1,1036 @@
+[
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app",
+            "isDirectory": true,
+            "size": 102,
+            "modifiedTime": 1517164427000,
+            "changeTime": 1517164427000,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main",
+            "isDirectory": true,
+            "size": 102,
+            "modifiedTime": 1517164427000,
+            "changeTime": 1517164427000,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default",
+            "isDirectory": true,
+            "size": 170,
+            "modifiedTime": 1517165994000,
+            "changeTime": 1517165994000,
+            "contentHash": "59fed01f15f48af1832d16ca7bfdfe06fa947fa2",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura",
+            "isDirectory": true,
+            "size": 476,
+            "modifiedTime": 1517167332000,
+            "changeTime": 1517167332000,
+            "contentHash": "026ae8cd8494e3ead1cd4f9e36e898916f026b7d",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX",
+            "isDirectory": true,
+            "size": 340,
+            "modifiedTime": 1517682687000,
+            "changeTime": 1517682687000,
+            "contentHash": "5a94d95257c963038ee3c8696f8ffe7806884f0e",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": true
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/classes",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/classes",
+            "isDirectory": true,
+            "size": 204,
+            "modifiedTime": 1517165994000,
+            "changeTime": 1517165994000,
+            "contentHash": "0170396e826a3054fc7ea3ab0f78433170aef13d",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/staticresources",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/staticresources",
+            "isDirectory": true,
+            "size": 272,
+            "modifiedTime": 1517165994000,
+            "changeTime": 1517165994000,
+            "contentHash": "1fb4ccab7fad74caa5178499d2577ba3d01e94c9",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/staticresources/SearchAppRes",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/staticresources/SearchAppRes",
+            "isDirectory": true,
+            "size": 102,
+            "modifiedTime": 1517165994000,
+            "changeTime": 1517165994000,
+            "contentHash": "5c6c8d159688b6ce8814dddbaa4bd6b3e5235428",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/staticresources/SearchAppRes/SearchAppRes",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/staticresources/SearchAppRes/SearchAppRes",
+            "isDirectory": true,
+            "size": 136,
+            "modifiedTime": 1517165994000,
+            "changeTime": 1517165994000,
+            "contentHash": "9941d0e935cc04b8eb03244e990fe60da6fafd0a",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/AddNewFieldEvt",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/AddNewFieldEvt",
+            "isDirectory": true,
+            "size": 136,
+            "modifiedTime": 1517165994000,
+            "changeTime": 1517165994000,
+            "contentHash": "69ab2150b182e03e690493fe87d5722880b1f926",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/CustomSearch",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/CustomSearch",
+            "isDirectory": true,
+            "size": 204,
+            "modifiedTime": 1517165994000,
+            "changeTime": 1517165994000,
+            "contentHash": "5f26cd83a662c9996e00a81dc8cefda639878a4f",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/DeleteFieldEvt",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/DeleteFieldEvt",
+            "isDirectory": true,
+            "size": 136,
+            "modifiedTime": 1517165994000,
+            "changeTime": 1517165994000,
+            "contentHash": "9a3175c4ade4cf18dd222f99bec002fb04ed6809",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/Modal",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/Modal",
+            "isDirectory": true,
+            "size": 170,
+            "modifiedTime": 1517165994000,
+            "changeTime": 1517165994000,
+            "contentHash": "7d8e31dd80df2e4dc4925978621627fe4eb68178",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/SearchCriteria",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/SearchCriteria",
+            "isDirectory": true,
+            "size": 272,
+            "modifiedTime": 1517769845000,
+            "changeTime": 1517165994000,
+            "contentHash": "394b6d31fd2afb129ac9acd04ee224df6b4bc51e",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/SearchCriteriaItem",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/SearchCriteriaItem",
+            "isDirectory": true,
+            "size": 238,
+            "modifiedTime": 1517165995000,
+            "changeTime": 1517165995000,
+            "contentHash": "9d3d7c5978307aef48d0e8e74a269cda87ad7c61",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/SearchResults",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/SearchResults",
+            "isDirectory": true,
+            "size": 204,
+            "modifiedTime": 1517165995000,
+            "changeTime": 1517165995000,
+            "contentHash": "93fa6eb22c8cf756348b11b2a07934a65f1f7db4",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/ShowToast",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/ShowToast",
+            "isDirectory": true,
+            "size": 136,
+            "modifiedTime": 1517165995000,
+            "changeTime": 1517165995000,
+            "contentHash": "34a2aa1bca41f1d10bd5b8448faa3c71587f82ea",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/ToggleModal",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/ToggleModal",
+            "isDirectory": true,
+            "size": 136,
+            "modifiedTime": 1517165995000,
+            "changeTime": 1517165995000,
+            "contentHash": "20c5119642200d2639931280b6f437a24a4bcaac",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/Utilities",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/Utilities",
+            "isDirectory": true,
+            "size": 204,
+            "modifiedTime": 1517165995000,
+            "changeTime": 1517165995000,
+            "contentHash": "9423a82bc4b32879036124811066af4c9b8e3139",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/searchApp",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/searchApp",
+            "isDirectory": true,
+            "size": 204,
+            "modifiedTime": 1517165995000,
+            "changeTime": 1517165995000,
+            "contentHash": "4d806e567d75c75c696431c6b3f5473b6e85443f",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/classes/CustomSearchController.cls",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/classes/CustomSearchController.cls",
+            "isDirectory": false,
+            "size": 6917,
+            "modifiedTime": 1517165994000,
+            "changeTime": 1517165994000,
+            "contentHash": "6727d47ea636a8773052a123ede5b1265e8fc98f",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/classes/CustomSearchController.cls-meta.xml",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/classes/CustomSearchController.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1517165994000,
+            "changeTime": 1517165994000,
+            "contentHash": "cb0f9f01e3f3aa0ea1a9985ea3caf2b33d167a49",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/classes/FilterCriteria.cls",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/classes/FilterCriteria.cls",
+            "isDirectory": false,
+            "size": 119,
+            "modifiedTime": 1517165994000,
+            "changeTime": 1517165994000,
+            "contentHash": "801a8fc711eff2a175687e55aa10d2ac332d313a",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/classes/FilterCriteria.cls-meta.xml",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/classes/FilterCriteria.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1517165994000,
+            "changeTime": 1517165994000,
+            "contentHash": "cb0f9f01e3f3aa0ea1a9985ea3caf2b33d167a49",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/staticresources/SearchAppRes/SearchAppRes/jquery-ui.min.js",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/staticresources/SearchAppRes/SearchAppRes/jquery-ui.min.js",
+            "isDirectory": false,
+            "size": 253669,
+            "modifiedTime": 1517165994000,
+            "changeTime": 1517165994000,
+            "contentHash": "78489e580adaef931e6e5b131dab556c397e4a1a",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/staticresources/SearchAppRes/SearchAppRes/jquery.min.js",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/staticresources/SearchAppRes/SearchAppRes/jquery.min.js",
+            "isDirectory": false,
+            "size": 86659,
+            "modifiedTime": 1517165994000,
+            "changeTime": 1517165994000,
+            "contentHash": "1055018c28ab41087ef9ccefe411606893dabea2",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/staticresources/SearchAppRes.resource-meta.xml",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/staticresources/SearchAppRes.resource-meta.xml",
+            "isDirectory": false,
+            "size": 222,
+            "modifiedTime": 1517165994000,
+            "changeTime": 1517165994000,
+            "contentHash": "2a135e336ba8b6bc150d4e94f6abb174d496a0f4",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/staticresources/Toastr.css",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/staticresources/Toastr.css",
+            "isDirectory": false,
+            "size": 7861,
+            "modifiedTime": 1517165994000,
+            "changeTime": 1517165994000,
+            "contentHash": "cbb42e71f1a425b712a468ebe2bd8e70bc8f0ecc",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/staticresources/Toastr.resource-meta.xml",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/staticresources/Toastr.resource-meta.xml",
+            "isDirectory": false,
+            "size": 202,
+            "modifiedTime": 1517165994000,
+            "changeTime": 1517165994000,
+            "contentHash": "685dbf4de5497a270ef119672a6f2f9aa4074ff2",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/staticresources/TosterJs.js",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/staticresources/TosterJs.js",
+            "isDirectory": false,
+            "size": 5537,
+            "modifiedTime": 1517165994000,
+            "changeTime": 1517165994000,
+            "contentHash": "6de8657c8782561bc023478ab708179ed846db1a",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/staticresources/TosterJs.resource-meta.xml",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/staticresources/TosterJs.resource-meta.xml",
+            "isDirectory": false,
+            "size": 209,
+            "modifiedTime": 1517165994000,
+            "changeTime": 1517165994000,
+            "contentHash": "c5ae89a08d0469ad1b16ff5ef26d4cf4b7ffe209",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/AddNewFieldEvt/AddNewFieldEvt.evt",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/AddNewFieldEvt/AddNewFieldEvt.evt",
+            "isDirectory": false,
+            "size": 60,
+            "modifiedTime": 1517165994000,
+            "changeTime": 1517165994000,
+            "contentHash": "0ddc754b37200df1baf7f143a74501e58a108645",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/AddNewFieldEvt/AddNewFieldEvt.evt-meta.xml",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/AddNewFieldEvt/AddNewFieldEvt.evt-meta.xml",
+            "isDirectory": false,
+            "size": 228,
+            "modifiedTime": 1517165994000,
+            "changeTime": 1517165994000,
+            "contentHash": "379d947ebfaf249a903d8b860a7dcc5904e5d4aa",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/CustomSearch/CustomSearch.cmp",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/CustomSearch/CustomSearch.cmp",
+            "isDirectory": false,
+            "size": 3357,
+            "modifiedTime": 1517165994000,
+            "changeTime": 1517165994000,
+            "contentHash": "9d0977c3af99f9d981c3eeaa9421bedc4b1fa698",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/CustomSearch/CustomSearch.cmp-meta.xml",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/CustomSearch/CustomSearch.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 228,
+            "modifiedTime": 1517165994000,
+            "changeTime": 1517165994000,
+            "contentHash": "379d947ebfaf249a903d8b860a7dcc5904e5d4aa",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/CustomSearch/CustomSearch.css",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/CustomSearch/CustomSearch.css",
+            "isDirectory": false,
+            "size": 2689,
+            "modifiedTime": 1517165994000,
+            "changeTime": 1517165994000,
+            "contentHash": "cb36980919aae6cd654818969aea606b7a7ebeb5",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/CustomSearch/CustomSearchController.js",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/CustomSearch/CustomSearchController.js",
+            "isDirectory": false,
+            "size": 890,
+            "modifiedTime": 1517165994000,
+            "changeTime": 1517165994000,
+            "contentHash": "63ddb828838bae0b6f8116b642ea40b3a1d82cab",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/DeleteFieldEvt/DeleteFieldEvt.evt",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/DeleteFieldEvt/DeleteFieldEvt.evt",
+            "isDirectory": false,
+            "size": 168,
+            "modifiedTime": 1517165994000,
+            "changeTime": 1517165994000,
+            "contentHash": "ddff28118617d6f6faaad2e0c64580ae3daba54e",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/DeleteFieldEvt/DeleteFieldEvt.evt-meta.xml",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/DeleteFieldEvt/DeleteFieldEvt.evt-meta.xml",
+            "isDirectory": false,
+            "size": 228,
+            "modifiedTime": 1517165994000,
+            "changeTime": 1517165994000,
+            "contentHash": "379d947ebfaf249a903d8b860a7dcc5904e5d4aa",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/Modal/Modal.cmp",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/Modal/Modal.cmp",
+            "isDirectory": false,
+            "size": 2044,
+            "modifiedTime": 1517165994000,
+            "changeTime": 1517165994000,
+            "contentHash": "4088d877ce50e847885cf09ec3ba727107e89e0c",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/Modal/Modal.cmp-meta.xml",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/Modal/Modal.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 228,
+            "modifiedTime": 1517165994000,
+            "changeTime": 1517165994000,
+            "contentHash": "379d947ebfaf249a903d8b860a7dcc5904e5d4aa",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/Modal/ModalController.js",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/Modal/ModalController.js",
+            "isDirectory": false,
+            "size": 1015,
+            "modifiedTime": 1517165994000,
+            "changeTime": 1517165994000,
+            "contentHash": "16ae90c9d908691c75f39e840e76604a6b446c74",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/SearchCriteria/SearchCriteria.auradoc",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/SearchCriteria/SearchCriteria.auradoc",
+            "isDirectory": false,
+            "size": 209,
+            "modifiedTime": 1517165994000,
+            "changeTime": 1517165994000,
+            "contentHash": "fd7f560d82324d6a8255c8c6ebf60698f5f93f1e",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/SearchCriteria/SearchCriteria.cmp",
+        {
+            "state": "u",
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/SearchCriteria/SearchCriteria.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 13302,
+            "modifiedTime": 1517771207000,
+            "changeTime": 1517771207000,
+            "contentHash": "09b83b2f200ac826e776237050eacfd102a929cf"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/SearchCriteria/SearchCriteria.cmp-meta.xml",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/SearchCriteria/SearchCriteria.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 228,
+            "modifiedTime": 1517165994000,
+            "changeTime": 1517165994000,
+            "contentHash": "379d947ebfaf249a903d8b860a7dcc5904e5d4aa",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/SearchCriteria/SearchCriteria.css",
+        {
+            "state": "u",
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/SearchCriteria/SearchCriteria.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 863,
+            "modifiedTime": 1517771207000,
+            "changeTime": 1517771207000,
+            "contentHash": "6831ec67002566be89d7a7bbe27d17a9c48c9e24"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/SearchCriteria/SearchCriteriaController.js",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/SearchCriteria/SearchCriteriaController.js",
+            "isDirectory": false,
+            "size": 5578,
+            "modifiedTime": 1517769959000,
+            "changeTime": 1517769959000,
+            "contentHash": "2961e741d61d3d72b22168ef93eb61ceeee8b70b",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/SearchCriteria/SearchCriteriaHelper.js",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/SearchCriteria/SearchCriteriaHelper.js",
+            "isDirectory": false,
+            "size": 5403,
+            "modifiedTime": 1517766770000,
+            "changeTime": 1517766770000,
+            "contentHash": "79e3455680f343a0e9a64dcba669c478bcc5d2ca",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/SearchCriteriaItem/SearchCriteriaItem.cmp",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/SearchCriteriaItem/SearchCriteriaItem.cmp",
+            "isDirectory": false,
+            "size": 7237,
+            "modifiedTime": 1517165995000,
+            "changeTime": 1517165995000,
+            "contentHash": "9f26d8301c7b9a91e7c5fceedbe28c75f18897a5",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/SearchCriteriaItem/SearchCriteriaItem.cmp-meta.xml",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/SearchCriteriaItem/SearchCriteriaItem.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 228,
+            "modifiedTime": 1517165995000,
+            "changeTime": 1517165995000,
+            "contentHash": "379d947ebfaf249a903d8b860a7dcc5904e5d4aa",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/SearchCriteriaItem/SearchCriteriaItem.css",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/SearchCriteriaItem/SearchCriteriaItem.css",
+            "isDirectory": false,
+            "size": 66,
+            "modifiedTime": 1517165995000,
+            "changeTime": 1517165995000,
+            "contentHash": "5928e5d244a1721e4bdc6486317b9876e01979ca",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/SearchCriteriaItem/SearchCriteriaItemController.js",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/SearchCriteriaItem/SearchCriteriaItemController.js",
+            "isDirectory": false,
+            "size": 2396,
+            "modifiedTime": 1517165995000,
+            "changeTime": 1517165995000,
+            "contentHash": "35fff6929b0c0973b94ea60e8ad9df06e4b300f2",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/SearchCriteriaItem/SearchCriteriaItemHelper.js",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/SearchCriteriaItem/SearchCriteriaItemHelper.js",
+            "isDirectory": false,
+            "size": 1044,
+            "modifiedTime": 1517165995000,
+            "changeTime": 1517165995000,
+            "contentHash": "d8a707ab72d94a349a23444d919d536297241c21",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/SearchResults/SearchResults.cmp",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/SearchResults/SearchResults.cmp",
+            "isDirectory": false,
+            "size": 1077,
+            "modifiedTime": 1517165995000,
+            "changeTime": 1517165995000,
+            "contentHash": "dc2b20bd4088607b69a100a6bc10cd9c34179e78",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/SearchResults/SearchResults.cmp-meta.xml",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/SearchResults/SearchResults.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 228,
+            "modifiedTime": 1517165995000,
+            "changeTime": 1517165995000,
+            "contentHash": "379d947ebfaf249a903d8b860a7dcc5904e5d4aa",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/SearchResults/SearchResultsController.js",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/SearchResults/SearchResultsController.js",
+            "isDirectory": false,
+            "size": 1104,
+            "modifiedTime": 1517165995000,
+            "changeTime": 1517165995000,
+            "contentHash": "22a08af204016d1bf3f218b15d6edf3697e27939",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/SearchResults/SearchResultsHelper.js",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/SearchResults/SearchResultsHelper.js",
+            "isDirectory": false,
+            "size": 1266,
+            "modifiedTime": 1517165995000,
+            "changeTime": 1517165995000,
+            "contentHash": "8f697619378fb9de7ebc5b9bd1e293e62b639a93",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/ShowToast/ShowToast.evt",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/ShowToast/ShowToast.evt",
+            "isDirectory": false,
+            "size": 270,
+            "modifiedTime": 1517165995000,
+            "changeTime": 1517165995000,
+            "contentHash": "f311c19056f5960f74325192e5a14e720bcdc6a3",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/ShowToast/ShowToast.evt-meta.xml",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/ShowToast/ShowToast.evt-meta.xml",
+            "isDirectory": false,
+            "size": 228,
+            "modifiedTime": 1517165995000,
+            "changeTime": 1517165995000,
+            "contentHash": "379d947ebfaf249a903d8b860a7dcc5904e5d4aa",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/ToggleModal/ToggleModal.evt",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/ToggleModal/ToggleModal.evt",
+            "isDirectory": false,
+            "size": 187,
+            "modifiedTime": 1517165995000,
+            "changeTime": 1517165995000,
+            "contentHash": "a547a34a9f928cc55c8285028368be71cc7c38cb",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/ToggleModal/ToggleModal.evt-meta.xml",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/ToggleModal/ToggleModal.evt-meta.xml",
+            "isDirectory": false,
+            "size": 239,
+            "modifiedTime": 1517165995000,
+            "changeTime": 1517165995000,
+            "contentHash": "92f328f0a9df578ac60ba56046f4c322d15ce0de",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/Utilities/Utilities.cmp",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/Utilities/Utilities.cmp",
+            "isDirectory": false,
+            "size": 2742,
+            "modifiedTime": 1517165995000,
+            "changeTime": 1517165995000,
+            "contentHash": "937d490ee6a4f5c9242336fea9b6f3d8c65c97d1",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/Utilities/Utilities.cmp-meta.xml",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/Utilities/Utilities.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 228,
+            "modifiedTime": 1517165995000,
+            "changeTime": 1517165995000,
+            "contentHash": "379d947ebfaf249a903d8b860a7dcc5904e5d4aa",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/Utilities/UtilitiesController.js",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/Utilities/UtilitiesController.js",
+            "isDirectory": false,
+            "size": 524,
+            "modifiedTime": 1517165995000,
+            "changeTime": 1517165995000,
+            "contentHash": "35e5eeb4f772fe3b4bbd9e42cd3eaf76b892e9cf",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/Utilities/UtilitiesHelper.js",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/Utilities/UtilitiesHelper.js",
+            "isDirectory": false,
+            "size": 1308,
+            "modifiedTime": 1517165995000,
+            "changeTime": 1517165995000,
+            "contentHash": "bf9b192fa3b7cc1ea7d0bfbb514fff505e33efb7",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/searchApp/searchApp.app",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/searchApp/searchApp.app",
+            "isDirectory": false,
+            "size": 552,
+            "modifiedTime": 1517165995000,
+            "changeTime": 1517165995000,
+            "contentHash": "7c8460f2660bd276d0e78a985653dd861bd590d4",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/searchApp/searchApp.app-meta.xml",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/searchApp/searchApp.app-meta.xml",
+            "isDirectory": false,
+            "size": 228,
+            "modifiedTime": 1517165995000,
+            "changeTime": 1517165995000,
+            "contentHash": "379d947ebfaf249a903d8b860a7dcc5904e5d4aa",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/searchApp/searchApp.css",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/searchApp/searchApp.css",
+            "isDirectory": false,
+            "size": 466,
+            "modifiedTime": 1517165995000,
+            "changeTime": 1517165995000,
+            "contentHash": "7940232915eba233897a1bb03292aff2b86443e8",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/searchApp/searchAppController.js",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/searchApp/searchAppController.js",
+            "isDirectory": false,
+            "size": 95,
+            "modifiedTime": 1517165995000,
+            "changeTime": 1517165995000,
+            "contentHash": "1fca58f9d72348febcc2b22294eca218ba799c01",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/NewSearchCriteriaItem",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/NewSearchCriteriaItem",
+            "isDirectory": true,
+            "size": 374,
+            "modifiedTime": 1517167332000,
+            "changeTime": 1517167332000,
+            "contentHash": "0bc5d56bffdbba4777d6ccd4442e1e18ed8a8866",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/NewSearchCriteriaItem/NewSearchCriteriaItem.auradoc",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/NewSearchCriteriaItem/NewSearchCriteriaItem.auradoc",
+            "isDirectory": false,
+            "size": 209,
+            "modifiedTime": 1517167332000,
+            "changeTime": 1517167332000,
+            "contentHash": "fd7f560d82324d6a8255c8c6ebf60698f5f93f1e",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/NewSearchCriteriaItem/NewSearchCriteriaItem.cmp",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/NewSearchCriteriaItem/NewSearchCriteriaItem.cmp",
+            "isDirectory": false,
+            "size": 7073,
+            "modifiedTime": 1517769896000,
+            "changeTime": 1517769896000,
+            "contentHash": "bb0fee2b67e3d5e5c171bb033a3c848c9906dd46",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/NewSearchCriteriaItem/NewSearchCriteriaItem.cmp-meta.xml",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/NewSearchCriteriaItem/NewSearchCriteriaItem.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 253,
+            "modifiedTime": 1517167332000,
+            "changeTime": 1517167332000,
+            "contentHash": "35df916aa6a9cddcc7d22ca55b7f0a34228fd059",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/NewSearchCriteriaItem/NewSearchCriteriaItem.css",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/NewSearchCriteriaItem/NewSearchCriteriaItem.css",
+            "isDirectory": false,
+            "size": 66,
+            "modifiedTime": 1517167386000,
+            "changeTime": 1517167386000,
+            "contentHash": "5928e5d244a1721e4bdc6486317b9876e01979ca",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/NewSearchCriteriaItem/NewSearchCriteriaItem.design",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/NewSearchCriteriaItem/NewSearchCriteriaItem.design",
+            "isDirectory": false,
+            "size": 40,
+            "modifiedTime": 1517167332000,
+            "changeTime": 1517167332000,
+            "contentHash": "c5618bc7228e29c74b07b78fd040e05ae8a541ec",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/NewSearchCriteriaItem/NewSearchCriteriaItem.svg",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/NewSearchCriteriaItem/NewSearchCriteriaItem.svg",
+            "isDirectory": false,
+            "size": 661,
+            "modifiedTime": 1517167332000,
+            "changeTime": 1517167332000,
+            "contentHash": "721eeffe17135535c3834b77f1e1968fe6360ed4",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/NewSearchCriteriaItem/NewSearchCriteriaItemController.js",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/NewSearchCriteriaItem/NewSearchCriteriaItemController.js",
+            "isDirectory": false,
+            "size": 2559,
+            "modifiedTime": 1517681314000,
+            "changeTime": 1517681314000,
+            "contentHash": "2a7fc3876204630f31061603f09e302e530e1f28",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/NewSearchCriteriaItem/NewSearchCriteriaItemHelper.js",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/NewSearchCriteriaItem/NewSearchCriteriaItemHelper.js",
+            "isDirectory": false,
+            "size": 1044,
+            "modifiedTime": 1517167417000,
+            "changeTime": 1517167417000,
+            "contentHash": "d8a707ab72d94a349a23444d919d536297241c21",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/NewSearchCriteriaItem/NewSearchCriteriaItemRenderer.js",
+        {
+            "sourcePath": "/Users/apple/Desktop/MyDisk/Salesforce/Projects/SearchApp/SearchAppDX/force-app/main/default/aura/NewSearchCriteriaItem/NewSearchCriteriaItemRenderer.js",
+            "isDirectory": false,
+            "size": 50,
+            "modifiedTime": 1517167332000,
+            "changeTime": 1517167332000,
+            "contentHash": "8b79b016f08440c9b2f7d706a6d21229c854540b",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ]
+]
